@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#15194c">
+  <meta name="description" content="Словолёт: приключения и задания по английскому от первых слов до 11 класса.">
+  <title>Словолёт — играем в английский</title>
+  <link rel="stylesheet" href="./style.css?v=tenses2">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <button id="homeButton" class="brand" type="button" aria-label="На главную"><span class="brand-icon">✦</span><span>Словолёт</span></button>
+      <div class="top-stats"><span title="Звёзды" class="stat">⭐ <b id="starCount">0</b></span><span title="Серия дней" class="stat">🔥 <b id="streakCount">0</b></span></div>
+    </header>
+    <main id="appMain" aria-live="polite"></main>
+    <nav class="bottom-nav" aria-label="Разделы игры">
+      <button type="button" data-view="map" class="nav-item active"><span>🗺️</span><span>Карта</span></button>
+      <button type="button" data-view="rewards" class="nav-item"><span>🏆</span><span>Награды</span></button>
+      <button type="button" data-view="profile" class="nav-item"><span>👤</span><span>Прогресс</span></button>
+    </nav>
+  </div>
+  <script src="./game.js?v=tenses2" defer></script>
+</body>
+</html>
